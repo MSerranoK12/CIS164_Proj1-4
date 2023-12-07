@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	    <link rel="stylesheet" href="insights_image_gallery.css">
+	</head>
+<body>
+	<main>
+		<div class="p-5 bg-primary text-white text-center">
+			<h1>Maria Serrano's</h1>
+			<p>Web Development Journey</p> 
+		  </div>	  
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<div class="container-fluid">
+	  <ul class="navbar-nav">
+		<li class="nav-item">
+		  <a class="nav-link" href="index.html">Cerritos College</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="cisprog.html">CIS Programs</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link active" href="insights.html">Insights</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="career.html">Careers</a>
+		</li>
+	  </ul>
+	</div>
+  </nav>
+  <div class="container mt-5">
+	<div class="row">
+	  <div class="col-sm-4">
+		<h3><strong>Cerritos College</strong></h3>
+		<br>
+		<p>11110 Alondra Boulevard</p>
+		<p>Norwalk, CA 90650</p>
+		<div class="Image"></div>
+		<img src="logo.jpg" style="width: 50%;">
+		<p><em></em>
+		  <br>
+		  <b></b></p>
+		<h3 class="mt-4">Site Links</h3>
+		<p>Click to explore my site</p>
+		<ul class="nav nav-pills flex-column">
+		  <li class="nav-item">
+			<a class="nav-link" href="index.html">Cerritos College</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="cisprog.html">CIS Programs</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link active" href="insights.html">Insights</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href=" career.html">Careers</a>
+		  </li>
+		</ul>
+		<hr class="d-sm-none">
+	  </div>
+	  <div class="col-sm-8">
+		<h2>Computer Information Sciences Department</h2>
+		<h4>Maria Serrano's CIS Projects</h4>
+		<p><em>Click on an image to enlarge.</p></em>
+		<ul id="image_list">
+			<li><a href="FirstWebsite.JPG" title="My First Word Press Website">
+				<img src="FirstWebsiteThumbnail.jpg" alt="first website">
+			</a></li>
+			<li><a href="SecondWebsite.JPG" title="My Personal Website">
+				<img src="SecondWebsiteThumbnail.JPG" alt="second website">
+			</a></li>
+			<li><a href="ThirdWebsite.JPG" title="HTML & CSS Website">
+				<img src="ThirdWebsiteThumbnail.jpg" alt="third website">
+			</a></li>
+			<li><a href="FourthWebsite.JPG" title="Learning JavaScript & jQuery">
+				<img src="FourthWebsiteThumbnail.jpg" alt="fourth website">
+			</a></li>
+			<li><a href="SerranoMariaBookCover.jpg" title="Out of Africa - Adobe Photoshop Book Cover">
+				<img src="SerranoMariaBookCoverThumbnail.jpg"  alt="Adobe Photoshop project">
+			</a></li>
+
+		</ul>
+		<h5 id="caption">Web Development Highlights!</h5>
+		<p><img id="main_image" src="FirstWebsite.JPG" alt="Image Gallery area"></p>
+		<script src="image_gallery.js"></script>
+	</main>
+	<div class="footer" style="width: 100%;">Maria Serrano</div>
+  <div clas="container-fluid">
+      </div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   	<script src="insights_image_gallery.js"></script>
+</body>
+</html>
