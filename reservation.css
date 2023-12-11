@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;*/
+    font-size: 87.5%;
+	width: 0 auto;
+	margin: 0 auto;
+	padding: 15px 25px;	
+}
+
+h1 {
+    /*color: blue;*/
+    font-size: 200%;
+	font-style: bold;
+}
+h2, h3 {
+	font-size: 175%;
+	padding: .25em 0 .25em 25px;
+}
+h4 {
+	font-size: 125%;
+	padding: .25em 0 .25em 25px;
+}
+
+h5 {
+	font-size: 175%;
+	text-align: center;
+	color:darksalmon;
+	margin-top: 2em;
+}
+
+em {
+	color:darksalmon;
+	padding: .25em 0 .25em 25px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 5px;
+}
+li {
+	display: inline;
+}
+p, a {
+	padding-bottom: .4em;
+	padding-left: 15px;
+}
+a, a:focus, a:hover {
+	color: blue;
+}
+
+.footer {
+	background-color: black;;
+	color:white;
+	text-align: center;
+	font-size: large;
+	width: auto;
+	padding: 15px 25px;	
+	margin-top: 5em;
+}
+
+/*div {
+    margin-bottom: 0.5em;
+}*/
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+label {
+    display: inline-block;
+    width: 6em;
+}
+input, select {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+input {
+    width: 14em;	
+}
+input.left {
+	width: 1em;
+	padding-left: 0;
+}
+p {
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+/*input.last {
+	margin-bottom: 1em;
+}*/
+#adults, #students {
+	width: 45px;
+}
+#visitors {
+	width: 3em;
+	margin-left: 0;
+}
+#submit {
+	margin-left: 0;
+	width: 10em;
+}
+span {
+	color: red;
+}
+:required {
+    color: red;
+}
